@@ -1,0 +1,38 @@
+{
+  "name": "use-date-select",
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "umd:main": "dist/use-date-select.umd.production.js",
+  "module": "dist/use-date-select.es.production.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "start": "tsdx watch",
+    "build": "tsdx build",
+    "test": "tsdx test --env=jsdom --watch"
+  },
+  "peerDependencies": {
+    "react": ">=16"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.13",
+    "@types/react": "^16.8.17",
+    "@types/react-dom": "^16.8.4",
+    "husky": "^2.3.0",
+    "prettier": "^1.17.1",
+    "pretty-quick": "^1.10.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-testing-library": "^7.0.0",
+    "tsdx": "^0.5.11",
+    "tslib": "^1.9.3",
+    "typescript": "^3.4.5"
+  }
+}
