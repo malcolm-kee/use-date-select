@@ -109,7 +109,7 @@ export function getYears({
 
   const futureYears = isDefined(maxDate)
     ? createNumbers({
-        min: now.getFullYear() - 1,
+        min: now.getFullYear() + 1,
         max: maxDate.getFullYear(),
       })
     : createNumbers({
